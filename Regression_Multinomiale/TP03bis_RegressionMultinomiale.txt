@@ -1,0 +1,38 @@
+TP03bis : Régression Multinomiale 
+==================================
+
+Les étudiants doivent compléter le code afin de créer un regresseur logistique multinomial (maximum entropy). 
+Ils doivent, aussi, analyser quelques résultats.
+
+OUTILS : Python, Jupyter, pandas, scikit-learn, numpy, matplotlib
+
+DATASETS : Iris
+
+PLAN : 
+
+I. Réalisation des algorithmes
+    I.1. Combinaison linéaire
+    I.2. Calcul des probabilités
+    I.3. Prédiction
+    I.4. Calcul du coût
+    I.5. Calcul des gradients
+    I.6. Regrouper les fonctions ensemble
+II. Application et analyse
+    II.1. Séparabilité des classes
+    II.2. AdaGrad
+    II.3. One-vs-Rest OU One-vs-One
+
+QUOI FAIRE : 
+
+I. Réalisation des algorithmes
+    - Implémenter la fonction de combinaison linéaire
+    - Implémenter la fonction softmax
+    - Implémenter la fonction de prédiction
+    - Implémenter la fonction du coût multinomial
+    - Implémenter la fonction du gradient multinomial
+    
+II. Application et analyse
+    - Séparabilité des classes et relation avec la performance (Analyse)
+    - Comparaison entre la convergence de la Descente du gradient (DG) et AdaGrad (analyse)
+    - Comparaison entre la performance de la Descente du gradient (DG) et AdaGrad (analyse)
+    - Comparaison entre MaXent et modèles binaires pour le classement multinomial (analyse)
